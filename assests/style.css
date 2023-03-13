@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-#header {
+header {
   display: flex;
   width: 100%;
   position: fixed;
@@ -16,13 +16,13 @@
 }
 
 @media screen and (min-width: 921px) {
-  #header {
+  header {
     width: 90%;
     margin: 0 calc((100% - 90%) / 2);
     top: 1rem;
   }
 
-  #header.animate {
+  header.animate {
     width: 100%;
     margin: 0;
     top: 0;
