@@ -55,6 +55,9 @@ while (recentPostsNum < 7) {
   </section>
   </div>`;
   recentPostsNum++;
+  if (recentPostsNum == 7) {
+    cards[0].innerHTML += `<button class="btn2">Load More</button>`;
+  }
 }
 
 // Popular Posts
